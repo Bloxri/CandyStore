@@ -1,0 +1,15 @@
+<resources>
+  <string name="app_name">TaskStoreV4</string>
+  <string name="action_settings">Settings</string>
+  <string name="reset">RESET</string>
+  <string name="add">ADD</string>
+  <string name="delete">DELETE</string>
+  <string name="update">UPDATE</string>
+
+  <string name="label_name">Name</string>
+  <string name="label_description">Description</string>
+  <string name="label_deadline">Deadline</string>
+  <string name="label_priority">Priority</string>
+  <string name="button_add">ADD</string>
+  <string name="button_back">BACK</string>
+</resources>
