@@ -12,4 +12,8 @@
   <string name="label_priority">Priority</string>
   <string name="button_add">ADD</string>
   <string name="button_back">BACK</string>
+  <string name="mth182_66">MTH182-66</string>
+  <string name="chapter_5_2">Chapter 5.2</string>
+  <string name="priority_rng">1-3</string>
+  <string name="choose_date">Choose Date</string>
 </resources>
