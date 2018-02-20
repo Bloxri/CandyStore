@@ -89,6 +89,7 @@ public class UpdateActivity extends AppCompatActivity {
 		public void onClick(View v) {
 			// retrieve name and price of the candy
 			int taskId = v.getId();
+			Log.d("TaskID", "onClick: " + Integer.toString(taskId));
 			EditText nameET = (EditText) findViewById(taskId);
 			EditText priceET = (EditText) findViewById(taskId);
 			String name = nameET.getText().toString();
