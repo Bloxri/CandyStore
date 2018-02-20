@@ -1,8 +1,6 @@
-package com.jblearning.candystorev5;
+package com.mobile_dev.todoApp;
 
 import android.app.DatePickerDialog;
-import android.app.Dialog;
-import android.app.DialogFragment;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -62,7 +60,8 @@ public class InsertActivity extends AppCompatActivity {
 		DeadlineDate = (EditText) findViewById(R.id.input_deadline);
 		Date date = new Date();
 		Calendar cal = Calendar.getInstance();
-		DatePickerDialog dialog = new DatePickerDialog(this, dateChosen, cal.get(Calendar.YEAR),
+		DatePickerDialog dialog = new DatePickerDialog(this, dateChosen,
+				cal.get(Calendar.YEAR),
 				cal.get(Calendar.MONTH),
 				cal.get(Calendar.DAY_OF_MONTH));
 		dialog.show();

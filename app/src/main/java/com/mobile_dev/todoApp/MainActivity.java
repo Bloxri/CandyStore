@@ -1,7 +1,6 @@
-package com.jblearning.candystorev5;
+package com.mobile_dev.todoApp;
 
 import android.content.Intent;
-import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.graphics.Point;
 import android.os.Bundle;
@@ -19,7 +18,6 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 	private DatabaseManager dbManager;

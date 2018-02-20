@@ -1,7 +1,6 @@
-package com.jblearning.candystorev5;
+package com.mobile_dev.todoApp;
 
 import android.content.Context;
-import android.widget.Button;
 
 public class TaskButton extends android.support.v7.widget.AppCompatButton {
 	private Task task;

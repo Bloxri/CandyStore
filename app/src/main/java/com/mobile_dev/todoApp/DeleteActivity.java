@@ -1,4 +1,4 @@
-package com.jblearning.candystorev5;
+package com.mobile_dev.todoApp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

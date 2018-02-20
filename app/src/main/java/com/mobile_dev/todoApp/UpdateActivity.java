@@ -1,4 +1,4 @@
-package com.jblearning.candystorev5;
+package com.mobile_dev.todoApp;
 
 import android.graphics.Point;
 import android.os.Bundle;
@@ -88,16 +88,18 @@ public class UpdateActivity extends AppCompatActivity {
 	private class ButtonHandler implements View.OnClickListener {
 		public void onClick(View v) {
 			// retrieve name and price of the candy
-			int taskId = v.getId();
+			int taskId = (v.getId()) * 10;
 			Log.d("TaskID", "onClick: " + Integer.toString(taskId));
+
+
 			EditText nameET = (EditText) findViewById(taskId);
-			EditText priceET = (EditText) findViewById(taskId);
+			EditText descET = (EditText) findViewById(taskId + 1);
 			String name = nameET.getText().toString();
-			String priceString = priceET.getText().toString();
+			String descString = descET.getText().toString();
 
 			// update task in database
 			try {
-				dbManager.updateById(taskId, name, "", 0);//TODO: this needs help..
+				dbManager.updateById((taskId / 10), name, descString, 1);//TODO: this needs help..
 				Toast.makeText(UpdateActivity.this, "Task updated", Toast.LENGTH_SHORT).show();
 
 				// update screen
